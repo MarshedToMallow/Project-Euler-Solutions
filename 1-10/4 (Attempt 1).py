@@ -1,6 +1,6 @@
-import time
+from timeit import default_timer as timer
 
-start = time.time()
+start = timer()
 
 # Start with the squares of valid values
 products = [i ** 2 for i in range(100, 1000)]
@@ -19,4 +19,4 @@ while True:
     index = products.index(value)
     products[index] -= (index + 100)
 
-print(f"Elapsed time: {time.time() - start}")
+print(f"Elapsed time: {timer() - start}")
