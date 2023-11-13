@@ -1,17 +1,14 @@
 value = 600851475143
-largest_factor = None
-factor = 3
+potential_factor = 3
 
-# Continue until all factors are divided out
-while value != 1:
+# Continue until value equals than the potential_factor
+while value != potential_factor:
 
-    # If a factor is found, then it is saved as the largest factor
-    if value % factor == 0:
-        value //= factor
-        largest_factor = factor
+    # If a factor is found, it is divided out
+    if value % potential_factor == 0:value //= potential_factor
 
-    # Otherwise the factor increases by 2
-    else:factor += 2
+    # Otherwise the potential_factor increases by 2 (Only enabled when no factor is found, just in case there's a duplicate factor)
+    else:potential_factor += 2
 
 # The final result
-print(largest_factor)
+print(potential_factor)
