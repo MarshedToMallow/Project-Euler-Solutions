@@ -8,6 +8,9 @@ I strongly urge those who haven't solved the problems to attempt them yourself.
 The point of these problems is to work them out yourself and it's best to avoid just looking at the answer.
 If you've already finished but want my code or insight, I encourage you to have a look.
 
+In terms of credit, I've opted for the Unlicense, so you can do whatever you like with stuff from this repo.
+I will say, I'd prefer credit if possible, but you are under no obligation to do so.
+
 ## File Format
 The explanation files include the problem statement along with solutions I identified.
 Each solution is either marked as trivial or given a name and an attempt.
