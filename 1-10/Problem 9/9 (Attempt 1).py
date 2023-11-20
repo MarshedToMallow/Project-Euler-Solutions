@@ -31,3 +31,4 @@ for c in range(goal // 3 + 1, goal - 1):
 
 print("Time Elapsed:", timeit.default_timer() - start)
 print(f"{a} + {b} + {c} = 1,000 and {a}^2 + {b}^2 = {c}^2 ({a**2:,} + {b**2:,} = {c**2:,})")
+print(f"{a} * {b} * {c} = {a * b * c}")
